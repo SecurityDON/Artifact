@@ -21,7 +21,7 @@ def write_to_csv(file_name, mode, record):
         print("ERROR during writing csv")
 
 
-def save_to_csv(infura_api_key):
+def save_to_csv():
     # replace infura-api-key to your infura api key
     # follow the link https://docs.metamask.io/services/get-started/infura/ to obtain an infura api key
     web3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/infura-api-key"))
