@@ -5,8 +5,8 @@ from analysis_scripts.index_dev_distribution import *
 import math
 
 
-obs_data_path = "your storage path"
-traces_data_path = "your storage path"
+obs_data_path = "your storage path for price observations data"
+traces_data_path = "your storage path for traces data"
 num_oracle = 31
 f = math.floor(num_oracle / 3)
 non_leader_r = non_leader_accumulated_profits(obs_data_path, traces_data_path, num_oracle, f)
