@@ -22,7 +22,9 @@ def write_to_csv(file_name, mode, record):
 
 
 def save_to_csv(infura_api_key):
-    web3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/" + infura_api_key))
+    # replace infura-api-key to your infura api key
+    # follow the link https://docs.metamask.io/services/get-started/infura/ to obtain an infura api key
+    web3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/infura-api-key"))
     # A newly deployed contract will not be put into use immediately, and the fact that the end_block of the previous phase is equal to the start_block of the next phase will not cause any issues.
     phs_list = [
         [12007784, 12382429, "0xd3fCD40153E56110e6EEae13E12530e26C9Cb4fd",
