@@ -6,3 +6,5 @@ This repository contains the artifacts for the paper _Unveiling Price Manipulati
   - [index_dev_distribution.py](https://github.com/SecurityDON/Artifact/blob/main/analysis_scripts/index_dev_distribution.py) calculates the expected value of index deviation caused by the attacks and the corresponding distribution.
   - [all_observations_discrepancy.py](https://github.com/SecurityDON/Artifact/blob/main/analysis_scripts/all_observations_discrepancy.py) calculates the discrepancy between the maximum and minimum values of a historical observations list.
   -  [honest_discrepancy.py](https://github.com/SecurityDON/Artifact/blob/main/analysis_scripts/honest_discrepancy.py) calculates the lower bound of the honest discrepancy.
+  -  [attack_simulation.py](https://github.com/SecurityDON/Artifact/blob/main/analysis_scripts/attack_simulation.py) simulates the price bias caused by our proposed attacks.
+  -  [long_term_attack_ens_case.py](https://github.com/SecurityDON/Artifact/blob/main/analysis_scripts/long_term_attack_ens_case.py)calculates the accumulated profits resulting from long-term attacks using the ENS case.
