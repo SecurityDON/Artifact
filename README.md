@@ -1,6 +1,6 @@
 # Artifact
 This repository contains the artifacts for the paper _Unveiling Price Manipulation Attacks in Chainlink’s Decentralized Oracle Networks_. Specifically, these artifacts include the code for data collection, the datasets we used, our analysis scripts, and our experimental results. The requirements for running the program are listed in [requirements.txt](https://github.com/SecurityDON/Artifact/blob/main/requirements.txt).
-[./data/](https://github.com/SecurityDON/Artifact/tree/main/data). This directory contains the datasets we collected and used.
+- [./data/](https://github.com/SecurityDON/Artifact/tree/main/data). This directory contains the datasets we collected and used.
   - [./AllPairsEvents/](https://github.com/SecurityDON/Artifact/tree/main/data/AllPairsEvents). Price observations data for all the pairs we collected, with ETH/USD price observations data excluded.
   - [AggStartBlock.csv](https://github.com/SecurityDON/Artifact/blob/main/data/AggStartBlock.csv). Our manually collected information on Chainlink's proxy contracts and associated aggregator contracts used for providing price feeds on the Ethereum Mainnet.
   - [EthUsdObsWithTime.csv](https://github.com/SecurityDON/Artifact/blob/main/data/EthUsdObsWithTime.csv). Observations data from Chainlink's decentralized oracle network for ETH/USD price feeds.
