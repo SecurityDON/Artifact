@@ -5,7 +5,9 @@ from analysis_scripts.index_dev_distribution import *
 import math
 
 
+# The price observations data file is FilteredEthUsdObs.csv, https://github.com/SecurityDON/Artifact/blob/main/data/FilteredEthUsdObs.csv
 obs_data_path = "your storage path for price observations data"
+# The traces data file used below is too large, and due to anonymity requirements, we are unable to share it via our cloud storage links. When the anonymity restrictions are lifted, we will share this portion of data.
 traces_data_path = "your storage path for traces data"
 num_oracle = 31
 f = math.floor(num_oracle / 3)
