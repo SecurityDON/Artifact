@@ -23,7 +23,8 @@ def write_to_csv(file_name, mode, record):
 
 def save_to_csv(infura_api_key):
     # replace infura-api-key to your infura api key
-    web3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/" + infura_api_key))
+    # follow the link https://docs.metamask.io/services/get-started/infura/ to obtain an infura api key
+    web3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/infura-api-key"))
     info_list = []
     info_header = []
     with open("../data/AggStartBlock.csv", newline="") as f_read:
