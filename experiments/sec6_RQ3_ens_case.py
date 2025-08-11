@@ -213,8 +213,8 @@ def calculate_accumulated_deviations(obs_data_path, traces_data_path, total_orac
 if __name__ == "__main__":
     current_dir = os.path.dirname(__file__)
     obs_file_path = os.path.join(current_dir, "..", "data", "honest_observations.csv")
-    # Since the traces dataset is too large, we will later share it via a cloud storage link.
-    # After downloading the data we share, replace xxx below with the path where you store the traces data.
+    # The corresponding traces dataset is available at https://github.com/SecurityDON/Artifact/blob/main/data/ens_case_data.7z.001
+    # After downloading and extracting the traces dataset, replace xxx below with the path where you have stored it.
     traces_file_path = "xxx"
     oracles = 31
     type_str = "deflation"
