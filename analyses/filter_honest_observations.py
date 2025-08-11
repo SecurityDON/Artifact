@@ -13,14 +13,12 @@ def calculate_ratio(para_1, para_2):
 
 
 def apply_calculate_ratio_min(row):
-    # min_d_v意思是min d_ext value
     para_1 = row["min_d_v"]
     para_2 = row["median"]
     return calculate_ratio(para_1, para_2)
 
 
 def apply_calculate_ratio_max(row):
-    # max_d_v意思是max d_ext value
     para_1 = row["max_d_v"]
     para_2 = row["median"]
     return calculate_ratio(para_1, para_2)
